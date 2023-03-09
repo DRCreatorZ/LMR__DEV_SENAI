@@ -8,12 +8,18 @@
     <title>Login CSS</title>
 </head>
 <link rel="stylesheet" href="style.css">
+
 <body id="bodyLogin">
-   
-    <table> 
+
+    <table id="tabelaLogin">
         <thead>
-            <th> <h1>LOGIN</h1></th>
+            <th>
+                <h1>LOGIN</h1>
+            </th>
         </thead>
+        <tbody>
+            <td><img id="imgLogin" src="img/person-icon.png" alt=""></td>
+        </tbody>
         <tbody>
             <td>
                 <input type="email" name="e-mail" id="pmail" placeholder="e-mail">
@@ -29,6 +35,7 @@
         <tbody>
             <td><input type="submit" value="Enviar">
                 <input type="button" value="Voltar" onclick="parent.location='index.html'">
-            <br><br>
+                <br><br>
             </td>
         </tbody>
+    </table>
